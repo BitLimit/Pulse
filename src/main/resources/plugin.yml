@@ -1,0 +1,13 @@
+main: com.bitlimit.pulse.PulsePlugin
+name: Pulse
+version: ${project.version}
+author: Kolin Krewinkel
+description: Vital.
+website: https://github.com/BitLimit/Pulse/
+commands:
+    pulse:
+        description: Unimplemented and implicitly undocumented.
+permissions:
+    pulse.*:
+        description: Gives all permissions of the plugin.
+        default: op
