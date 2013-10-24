@@ -1,4 +1,4 @@
-package com.bitlimit.bits.bukkit;
+package com.bitlimit.pulse.bukkit;
 
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.file.YamlConfiguration;
