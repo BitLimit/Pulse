@@ -1,6 +1,6 @@
 main: com.bitlimit.pulse.bukkit.PulsePlugin
 name: Pulse
-version: ${project.version}
+version: 0.0.1
 author: Kolin Krewinkel
 description: Vital.
 website: https://github.com/BitLimit/Pulse/
