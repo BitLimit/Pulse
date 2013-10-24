@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bf882e-a468-4c42-9b77-3cdbc5255d29" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Pulse.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java" afterPath="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pulse.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382577183462" ignored="false" />
-    <file path="/PulsePlugin.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382588814976" ignored="false" />
+    <file path="/PulsePlugin.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382589681103" ignored="false" />
     <file path="$PROJECT_DIR$/META-INF/MANIFEST.MF" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382577122203" ignored="false" />
     <file path="$PROJECT_DIR$/../Remote-Entities/src/main/java/de/kumpelblase2/remoteentities/persistence/serializers/YMLSerializer.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382577184525" ignored="false" />
     <file path="$PROJECT_DIR$/../Remote-Entities/src/main/java/de/kumpelblase2/remoteentities/entities/RemoteBaseEntity.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382577184525" ignored="false" />
@@ -76,7 +74,7 @@
       <file leaf-file-name="PulsePlugin.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="12" selection-start="819" selection-end="819" vertical-scroll-proportion="0.2324873">
+            <state line="75" column="12" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.9543147">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -494,7 +492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="819" selection-end="819" vertical-scroll-proportion="0.2324873">
+        <state line="75" column="12" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.9543147">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

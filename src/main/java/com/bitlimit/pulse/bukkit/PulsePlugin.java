@@ -18,7 +18,7 @@ public class PulsePlugin extends JavaPlugin
 	{
 		this.handleDefaults();
 
-		this.broadcastLevel = (Level)this.getConfig().get("broadcastLevel");
+		this.broadcastLevel = Level.parse((String)this.getConfig().get("broadcastLevel"));
 
 		this.recordCondition(this, false, ChatColor.DARK_GREEN +
 				"\n " + ChatColor.DARK_RED + "Pulse 0.1" + ChatColor.DARK_GREEN + " /\\\n" +
@@ -38,17 +38,14 @@ public class PulsePlugin extends JavaPlugin
 
 	@Override
 	public void saveConfig() {
-		this.getConfig().set("broadcastLevel", this.broadcastLevel);
+		this.getConfig().set("broadcastLevel", this.broadcastLevel.toString());
 
 		super.saveConfig();
 	}
 
 	private void handleDefaults()
 	{
-		Configuration defaults = new YamlConfiguration();
-		defaults.set("broadcastLevel", Level.ALL);
-
-		this.getConfig().setDefaults(defaults);
+		this.getConfig().addDefault("broadcastLevel", Level.ALL.toString());
 	}
 
 	public void setBroadcastLevel(Level newLevel)
@@ -74,6 +71,9 @@ public class PulsePlugin extends JavaPlugin
 			message = prefix + content;
 		}
 
-		Bukkit.broadcast(message, "pulse.observe");
+		if (level.intValue() <= this.broadcastLevel.intValue())
+		{
+			Bukkit.broadcast(message, "pulse.observe");
+		}
 	}
 }
