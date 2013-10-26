@@ -2,12 +2,23 @@ package com.bitlimit.pulse.bukkit;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.configuration.Configuration;
-import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Level;
+
+public enum PluginCondition {
+	LOADED,
+	UNLOADED,
+
+	CREATED_PREFERENCES,
+	LOADED_PREFERENCES,
+
+	RECEIVED_COMMAND,
+	EXECUTED_COMMAND,
+
+	EVENT_LISTENED
+}
 
 public class PulsePlugin extends JavaPlugin
 {

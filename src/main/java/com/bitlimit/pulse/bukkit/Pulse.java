@@ -5,13 +5,6 @@ import org.bukkit.plugin.Plugin;
 
 import java.util.logging.Level;
 
-/**
- * Created with IntelliJ IDEA.
- * User: kolin
- * Date: 10/23/13
- * Time: 9:23 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Pulse {
 	private static Pulse ourInstance = new Pulse();
 
