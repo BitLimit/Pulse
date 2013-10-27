@@ -217,4 +217,3 @@ public class PulsePlugin extends JavaPlugin
 		return Level.FINEST;
 	}
 }
-}
