@@ -1,6 +1,4 @@
-package com.bitlimit.pulse.bukkit;
-
-import org.bukkit.ChatColor;
+package com.bitlimit.pulse;
 
 public enum PluginCondition {
 	LOADED,

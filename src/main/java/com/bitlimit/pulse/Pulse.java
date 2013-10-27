@@ -1,7 +1,8 @@
-package com.bitlimit.pulse.bukkit;
+package com.bitlimit.pulse;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
+import com.bitlimit.pulse.bukkit.*;
 
 import java.util.logging.Level;
 

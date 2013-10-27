@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bf882e-a468-4c42-9b77-3cdbc5255d29" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PluginCondition.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/Pulse.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java" afterPath="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pulse.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382908284194" ignored="false" />
-    <file path="/PulsePlugin.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382908596015" ignored="false" />
+    <file path="/Dummy.txt" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382909407446" ignored="false" />
+    <file path="/PulsePlugin.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382909544990" ignored="false" />
     <file path="$PROJECT_DIR$/META-INF/MANIFEST.MF" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382577122203" ignored="false" />
     <file path="$PROJECT_DIR$/../Remote-Entities/src/main/java/de/kumpelblase2/remoteentities/persistence/serializers/YMLSerializer.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382577184525" ignored="false" />
     <file path="$PROJECT_DIR$/../Remote-Entities/src/main/java/de/kumpelblase2/remoteentities/entities/RemoteBaseEntity.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382577184525" ignored="false" />
-    <file path="/Pulse.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382588801712" ignored="false" />
+    <file path="/Pulse.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382909565369" ignored="false" />
     <file path="/PluginCondition.java" changelist="74bf882e-a468-4c42-9b77-3cdbc5255d29" time="1382837192064" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,9 +77,8 @@
       <file leaf-file-name="PulsePlugin.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="75" selection-start="793" selection-end="793" vertical-scroll-proportion="0.46929318">
+            <state line="6" column="28" selection-start="194" selection-end="194" vertical-scroll-proportion="0.10428737">
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#getLevelForPluginCondition#0;class#PulsePlugin#0" expanded="false" />
               </folding>
             </state>
@@ -84,18 +86,18 @@
         </entry>
       </file>
       <file leaf-file-name="PluginCondition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PluginCondition.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/PluginCondition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="97" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Pulse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/Pulse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/Pulse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="37" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+            <state line="4" column="35" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,6 +124,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/Pulse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PluginCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/Pulse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/PluginCondition.java" />
       </list>
     </option>
   </component>
@@ -194,7 +198,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com.bitlimit.pulse.bukkit" />
+              <option name="myItemId" value="com.bitlimit.pulse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pulse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pulse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.bitlimit.pulse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bukkit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,8 +304,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -298,6 +320,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -326,19 +361,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -407,13 +429,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29366305" sideWeight="0.9551167" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2931416" sideWeight="0.9551167" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24975124" sideWeight="0.49668142" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15299878" sideWeight="0.7063369" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15299878" sideWeight="0.7068584" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -484,25 +506,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="5" selection-start="4850" selection-end="4850" vertical-scroll-proportion="0.0">
+        <state line="27" column="75" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#getLevelForPluginCondition#0;class#PulsePlugin#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PluginCondition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="97" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/Pulse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="37" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="217" column="5" selection-start="4850" selection-end="4850" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#getLevelForPluginCondition#0;class#PulsePlugin#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -510,16 +526,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="91" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#getLevelForPluginCondition#0;class#PulsePlugin#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/Pulse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="37" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,16 +535,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="29" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#getLevelForPluginCondition#0;class#PulsePlugin#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/Pulse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,16 +544,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="38" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#getLevelForPluginCondition#0;class#PulsePlugin#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/Pulse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,25 +554,24 @@
         <state line="6" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.08690614" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/Pulse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/Pulse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="37" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+        <state line="4" column="35" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PluginCondition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/PluginCondition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="97" selection-end="216" vertical-scroll-proportion="0.0">
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bitlimit/pulse/bukkit/PulsePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="75" selection-start="793" selection-end="793" vertical-scroll-proportion="0.46929318">
+        <state line="6" column="28" selection-start="194" selection-end="194" vertical-scroll-proportion="0.10428737">
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#getLevelForPluginCondition#0;class#PulsePlugin#0" expanded="false" />
           </folding>
         </state>
