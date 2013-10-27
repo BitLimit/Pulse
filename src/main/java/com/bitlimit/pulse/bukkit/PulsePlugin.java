@@ -25,7 +25,7 @@ public class PulsePlugin extends JavaPlugin
 				"                  \\/" + ChatColor.DARK_GRAY + "    Vital.\n", Level.FINEST);
 
 
-		this.recordCondition(this, "Loaded.", Level.FINE);
+		this.notePluginCondition(this, PluginCondition.LOADED, true, null);
 	}
 
 	@Override
