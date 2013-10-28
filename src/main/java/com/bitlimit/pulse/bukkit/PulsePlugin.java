@@ -63,7 +63,7 @@ public class PulsePlugin extends JavaPlugin
 	{
 		String content = ChatColor.AQUA + condition;
 		String message = content;
-		String prefix = ChatColor.GRAY + "[" + plugin.getName() + ChatColor.GRAY + "] ";
+		String prefix = ChatColor.GRAY + plugin.getName() + ChatColor.GRAY + "] ";
 
 		if (shouldPrefix)
 		{
@@ -90,6 +90,8 @@ public class PulsePlugin extends JavaPlugin
 				} else {
 					message = "failed to load.";
 				}
+
+				break;
 			}
 			case UNLOADED: {
 				if (success) {
@@ -97,6 +99,8 @@ public class PulsePlugin extends JavaPlugin
 				} else {
 					message = "failed to unload.";
 				}
+
+				break;
 			}
 			case CREATED_PREFERENCES: {
 				if (success) {
@@ -104,6 +108,8 @@ public class PulsePlugin extends JavaPlugin
 				} else {
 					message = "failed to initialize preferences.";
 				}
+
+				break;
 			}
 			case LOADED_PREFERENCES: {
 				if (success) {
@@ -111,6 +117,8 @@ public class PulsePlugin extends JavaPlugin
 				} else {
 					message = "failed to load preferences.";
 				}
+
+				break;
 			}
 			case RECEIVED_COMMAND: {
 				if (success) {
@@ -118,6 +126,8 @@ public class PulsePlugin extends JavaPlugin
 				} else {
 					message = "received and will not execute command \"" + description + "\"";
 				}
+
+				break;
 			}
 			case EXECUTED_COMMAND: {
 				if (success) {
@@ -125,6 +135,8 @@ public class PulsePlugin extends JavaPlugin
 				} else {
 					message = "failed to executed intended command \"" + description + "\"";
 				}
+
+				break;
 			}
 			case EVENT_LISTENED: {
 				if (success) {
@@ -132,6 +144,8 @@ public class PulsePlugin extends JavaPlugin
 				} else {
 					message = "observed event \"" + description + "\" but does not intend to react.";
 				}
+
+				break;
 			}
 		}
 

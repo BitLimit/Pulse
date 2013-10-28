@@ -29,6 +29,14 @@
       <version>1.6.2-R0.1</version>
       <scope>provided</scope>
     </dependency>
+      <dependency>
+          <groupId>com.bitlimit</groupId>
+          <artifactId>pulse</artifactId>
+          <version>LATEST</version>
+          <scope>provided</scope>
+          <systemPath>/Users/kolin/Projects/BitLimit/Testing Server/plugins/Pulse.jar</systemPath>
+      </dependency>
+
     <!-- Following dependency is provided by CraftBukkit -->
     <dependency>
       <groupId>com.google.guava</groupId>

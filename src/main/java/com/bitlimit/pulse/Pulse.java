@@ -19,6 +19,12 @@ public class Pulse {
 		pulsePlugin.recordCondition(plugin, condition, level);
 	}
 
+	public static void notePluginCondition(Plugin plugin, PluginCondition pluginCondition, boolean success, String additionalInformation)
+	{
+		PulsePlugin pulsePlugin = (PulsePlugin)Bukkit.getPluginManager().getPlugin("Pulse");
+		pulsePlugin.notePluginCondition(plugin, pluginCondition, success, additionalInformation);
+	}
+
 	private Pulse() {
 
 	}
