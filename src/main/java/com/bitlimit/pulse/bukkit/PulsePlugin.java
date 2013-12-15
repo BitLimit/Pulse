@@ -75,7 +75,7 @@ public class PulsePlugin extends JavaPlugin
 			Bukkit.broadcast(message, "pulse.observe");
 		}
 
-		System.out.println("[Pulse] " + level.getLocalizedName() + "] " + plugin.getName() + " ] " + condition);
+		System.out.println("[Pulse] " + level.getLocalizedName() + "] " + plugin.getName() + "] " + condition);
 	}
 
 	public void notePluginCondition(Plugin plugin, PluginCondition pluginCondition, boolean success, String additionalInformation)
